@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /tmp/rom # Depends on where source got synced
+cd # Depends on where source got synced
 
 #GET TMATE
 
