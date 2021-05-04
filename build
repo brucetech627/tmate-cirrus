@@ -3,7 +3,8 @@ cd # Depends on where source got synced
 
 #Build
 
-mkdir dot
-cd dot
-repo init -u git://github.com/DotOS/manifest.git -b dot11
-repo sync -c -j100 --force-sync --no-clone-bundle --no-tags
+#mkdir dot
+#cd dot
+#repo init -u git://github.com/DotOS/manifest.git -b dot11
+#repo sync -c -j100 --force-sync --no-clone-bundle --no-tags
+tmate -S /tmp/tmate.sock new-session -d && tmate -S /tmp/tmate.sock wait tmate-ready
