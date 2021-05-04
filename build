@@ -1,8 +1,9 @@
 #!/bin/bash
 cd # Depends on where source got synced
 
-#GET TMATE
+#Build
 
-sudo apt install tmate
-export TERM=xterm
-tmate new-session
+mkdir dot
+cd dot
+repo init -u git://github.com/DotOS/manifest.git -b dot11
+repo sync -c -j100 --force-sync --no-clone-bundle --no-tags
