@@ -5,4 +5,4 @@ cd # Depends on where source got synced
 
 sudo apt install tmate
 export TERM=xterm
-tmate
+tmate new-session
